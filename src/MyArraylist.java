@@ -1,5 +1,6 @@
 
 public class MyArraylist<T> implements MyList<T> {
+
     private int size;
     private int capacity = 10;
     private Object[] array = new Object[capacity];

@@ -5,5 +5,4 @@ public interface MyList<T> {
     boolean isEmpty();
     void remove(int index);
     int size();
-
 }
