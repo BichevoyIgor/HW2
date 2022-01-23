@@ -4,7 +4,6 @@ public class MyLinkedList<T> implements MyList<T> {
     private Entry<T> last;
     private int size;
 
-
     public MyLinkedList() {
         this.prev = new Entry(null, null, null);
     }

@@ -9,7 +9,6 @@ public class MyArraylist<T> implements MyList<T> {
         if (size == capacity - 1) resizeArray();
         array[size] = item;
         size++;
-
     }
 
     private void resizeArray() {
